@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Datenschutzerklärung für den privaten Google-Drive-Zugang der Anwendung Dashboard-Backup.">
+  <title>Datenschutzerklärung – Dashboard-Backup</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; line-height: 1.6; color: #202124; background: #fff; }
+    body { max-width: 48rem; margin: 0 auto; padding: 2rem 1.25rem; }
+    h1, h2 { line-height: 1.25; }
+    h2 { margin-top: 2rem; }
+    a { color: #164b96; text-underline-offset: .2em; }
+    a:focus-visible { outline: 3px solid #164b96; outline-offset: 4px; }
+    nav a { display: inline-block; padding: .75rem 0; }
+    footer { margin-top: 3rem; border-top: 1px solid #ddd; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+  <header><nav aria-label="Navigation"><a href="index.html">Zur Startseite</a></nav><h1>Datenschutzerklärung</h1></header>
+  <main>
+    <p>Diese Erklärung beschreibt den Google-Drive-Zugang der privaten Anwendung <strong>Dashboard-Backup</strong> und die dazugehörigen öffentlichen Informationsseiten. Betreiber ist die Person, die die App für ihre privaten Sicherungen eingerichtet hat. Kontakt ist über die im Google-Freigabedialog angegebene Support-E-Mail-Adresse möglich.</p>
+    <h2>Zugriff auf Google-Daten und Verwendungszweck</h2>
+    <p>Die Anwendung erhält nach ausdrücklicher Google-Freigabe die Berechtigung <code>https://www.googleapis.com/auth/drive.file</code>. Sie verwendet diesen Zugang ausschließlich für Sicherungsdateien, die sie selbst angelegt hat: zum Hochladen, Rücklesen zur Integritätsprüfung, Auflisten, Wiederherstellen und Löschen älterer Sicherungen. Andere Dateien des Google-Kontos werden nicht durchsucht oder ausgewertet.</p>
+    <h2>Verarbeitete Daten und Speicherung</h2>
+    <p>Gesichert wird eine Datenbank eines privaten Haushaltsdashboards mit Rezepten, Essensplanung, Aufgaben, Geschenklisten und dem gespeicherten Zustand zugehöriger Aufträge. Auf den Geräten des Betreibers entstehen geschützte lokale Sicherungskopien. Vor dem Upload verschlüsselt rclone sowohl die Inhalte als auch die Dateinamen. Google Drive speichert die verschlüsselten Dateien im Konto des Betreibers. Dateigrößen und Übertragungszeitpunkte können für den Speicherdienst sichtbar sein.</p>
+    <p>OAuth-Zugangstoken, Client-Konfiguration und Verschlüsselungsschlüssel werden ausschließlich in geschützten Konfigurationen auf den vom Betreiber kontrollierten Geräten beziehungsweise getrennt im Passwortmanager aufbewahrt. Sie sind nicht Bestandteil dieser Website und werden nicht veröffentlicht.</p>
+    <h2>Weitergabe und eingeschränkte Nutzung</h2>
+    <p>Die Anwendung überträgt die verschlüsselten Sicherungen an Google Drive. Sie verkauft keine Google-Nutzerdaten, verwendet sie nicht für Werbung oder KI-Training und gibt sie nicht an weitere Dienste zu solchen Zwecken weiter. Google-API-Daten werden ausschließlich für die genannten Sicherungsfunktionen genutzt.</p>
+    <p>Die Nutzung der über Google-APIs erhaltenen Informationen erfolgt entsprechend der <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, einschließlich ihrer Anforderungen zur eingeschränkten Nutzung (Limited Use).</p>
+    <h2>Aufbewahrung und Löschung</h2>
+    <p>Bei aktivierter Bereinigung werden regulär bis zu 30 Tagesstände und 12 Monatsstände aufbewahrt; diese Mengen können sich überschneiden. Bis zur Freigabe der Bereinigung und bei fehlgeschlagenen Übertragungen oder Prüfungen können ältere beziehungsweise unvollständige Stände bestehen bleiben. Der Betreiber kann Sicherungen bewusst löschen. Für den Google-Drive-Papierkorb gelten die Regeln von Google.</p>
+    <h2>Widerruf des Google-Zugangs</h2>
+    <p>Die Freigabe kann jederzeit in den <a href="https://myaccount.google.com/connections">Verbindungen des Google-Kontos</a> widerrufen werden. Damit kann die Anwendung keine weiteren zugelassenen Google-API-Zugriffe ausführen. Bereits gespeicherte Sicherungen werden durch einen Widerruf nicht automatisch gelöscht; ihre Löschung erfolgt getrennt im Google-Konto beziehungsweise auf den Geräten des Betreibers.</p>
+    <h2>Diese Informationsseiten</h2>
+    <p>Die statischen Seiten werden über GitHub Pages ausgeliefert. Sie enthalten keine Formulare, Analysewerkzeuge oder eingebundenen Werbedienste und setzen selbst keine Cookies. Google-Drive-Daten und Anmeldetoken werden auf diesen Seiten weder abgefragt noch verarbeitet. Beim Abruf verarbeitet der Hostinganbieter technisch notwendige Verbindungsdaten, etwa die IP-Adresse. Dafür gilt zusätzlich die <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Datenschutzerklärung von GitHub</a>.</p>
+  </main>
+  <footer><p><a href="index.html">Dashboard-Backup – Startseite</a></p></footer>
+</body>
+</html>

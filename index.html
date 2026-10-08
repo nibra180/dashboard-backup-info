@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informationen zur privaten Anwendung Dashboard-Backup und ihrem eingeschränkten Google-Drive-Zugang.">
+  <title>Dashboard-Backup</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; line-height: 1.6; color: #202124; background: #fff; }
+    body { max-width: 48rem; margin: 0 auto; padding: 2rem 1.25rem; }
+    h1, h2 { line-height: 1.25; }
+    h2 { margin-top: 2rem; }
+    a { color: #164b96; text-underline-offset: .2em; }
+    a:focus-visible { outline: 3px solid #164b96; outline-offset: 4px; }
+    nav a { display: inline-block; padding: .75rem 0; }
+    footer { margin-top: 3rem; border-top: 1px solid #ddd; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+  <header><h1>Dashboard-Backup</h1></header>
+  <main>
+    <p>Dashboard-Backup ist eine private Anwendung zur Sicherung eines persönlichen Haushaltsdashboards. Sie nutzt rclone, um konsistente Datenbanksicherungen verschlüsselt im Google Drive des Betreibers abzulegen und ihre Wiederherstellbarkeit zu prüfen.</p>
+    <h2>Was wird gesichert?</h2>
+    <p>Die Datenbank enthält unter anderem Rezepte, Essensplanung, Haushaltsaufgaben und Geschenklisten. Sicherungsdateien und ihre Namen werden vor der Übertragung verschlüsselt. Der Verschlüsselungsschlüssel bleibt auf den vom Betreiber kontrollierten Geräten und wird getrennt aufbewahrt.</p>
+    <h2>Warum benötigt die App Google-Zugriff?</h2>
+    <p>Der eingeschränkte Berechtigungsumfang <code>drive.file</code> ermöglicht das Erstellen, Lesen und Löschen der von dieser App angelegten Sicherungsdateien. Die App durchsucht keine fremden Drive-Dateien. Der Zugang dient ausschließlich der Sicherung, Prüfung, Aufbewahrung und Wiederherstellung der privaten Daten.</p>
+    <h2>Kein öffentlicher Dienst</h2>
+    <p>Diese Website ist nur eine öffentliche Informationsseite für die Google-Anmeldung. Sie bietet keinen Zugriff auf das Dashboard, keine Anmeldung und keinen Zugriff auf Sicherungen. Hier werden weder Nutzdaten noch Zugangsdaten veröffentlicht.</p>
+    <nav aria-label="Weitere Informationen"><a href="datenschutz.html">Datenschutzerklärung</a></nav>
+  </main>
+  <footer><p>Bei Fragen zur Anwendung gilt die im Google-Freigabedialog angegebene Support-E-Mail-Adresse.</p></footer>
+</body>
+</html>
